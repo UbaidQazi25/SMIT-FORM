@@ -1,0 +1,113 @@
+<html>
+    <head><title>Registration Form </title></head>
+    <body>
+       <table width="100%" >
+        <tr align="center">
+            <td><img   src="https://awamiweb.com/wp-content/uploads/2018/07/saylani-welfare.jpg " alt="saylani-welfare LOGO"  width="30%"></td>
+        </tr>
+        </table>
+        <H1 align="center"> Saylani Online Academy</H1>
+        
+            
+        <form action="form2.html" method="get" >
+           <table width="50%" align="center" bgcolor="gray">
+            <tr>
+                <td>Name:</td>
+                <td>
+                    &emsp;<input type="text"  placeholder="Name" required name="name" minlength="3" maxlength="40"  >
+               </td>
+            </tr>
+            <tr>
+                <td>Father Name:</td>
+                <td>
+                    &emsp;<input type="text"   placeholder=" Father Name" required name=" fname" minlength="3" maxlength="40">
+                </td>
+            </tr>
+           <tr>
+               <td>Password:</td>
+               <td>
+                &emsp;<input type="password" required  placeholder="Enter Password" name=" password" minlength="5" maxlength="9">
+               </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td>
+                    &emsp;<input type="text" required placeholder=" Address" required name ="Address" minlength="5" maxlength="100" >
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    &emsp;<input type="radio" name="Gender" id=""  value="Male" required > Male
+                   <input type="radio" name="Gender" id=""  value="Female" required > Female
+                </td>
+            </tr>
+            <tr>
+                <td>Language</td>
+                <td>
+                    &emsp;
+             <input type="checkbox" name="language" id="" value="Urdu">Urdu
+            <input type="checkbox" name="Language" id="" value ="English" >English
+            <input type="checkbox" name="Language" id="" value ="Arabic" >Arabic
+            <input type="checkbox" name="Language" id="" value ="Chinese" >Chinese
+                </td>
+            </tr>
+            <tr>
+                <td>DOB:</td>
+                <td>
+                    &emsp;<input type="Date" name="DOB" required ></td>
+            </tr>
+             <tr>
+                <td>Email ID:</td>
+                <td>
+                    &emsp;<input type="email" placeholder="Email ID" name="email" id="" required ></td>
+             </tr>
+             <tr>
+                <td>Mobile Number :</td>
+                <td>
+                    &emsp;<input type="number" placeholder="Mobile Number" name ="number" required value="phone number" ></td>
+             </tr>
+            <tr>
+                <td>City</td>
+                <td>
+                    &emsp;
+                <select name="city" id="">
+                       <option value="hyderabad">hyderabad</option>
+                       <option value="nawabshah">nawabshah</option>
+                    
+                       <option value="karachi">karachi</option>
+                       <option value="noriyabad">noriyabad</option>
+
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td>
+                    &emsp;
+                    <select name="hobbies">
+                        <option value="circket">circket</option>
+                        <option value="hockey">hockey</option>
+                        <option value="book reading">book reading</option>
+                        <option value="football">football</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Picture Upload</td>
+                <td>
+                    &emsp;
+                    <input type="file" multiple accept="image/*,.pdf,.png">
+                    <input type="submit" value="upload">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="submit"
+                </td>
+            </tr>
+            </table>
+        </form>
+        
+    </body>
+</html>
